@@ -5,8 +5,10 @@ package main
 
 import (
 	"github.com/olysad/budcalc/cmd"
+	"github.com/olysad/budcalc/utils"
 )
 
 func main() {
+	utils.Wchoose()
 	cmd.Execute()
 }
